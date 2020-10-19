@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import TTGSnackbar
 
 public class CustomButton {
     public static func roundedAllCorner(view: UIView) {
@@ -23,6 +24,9 @@ public class CustomButton {
         view.clipsToBounds = true
         view.layer.cornerRadius = 10
         view.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner] // Bottom right corner, Bottom left corner respectively
-        
+    }
+    public static func displayCustomMessage(withWord: String) {
+        let snackBar = TTGSnackbar(message: withWord, duration: .long)
+        snackBar.show()
     }
 }

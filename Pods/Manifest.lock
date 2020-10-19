@@ -1,0 +1,16 @@
+PODS:
+  - TTGSnackbar (1.10.3)
+
+DEPENDENCIES:
+  - TTGSnackbar
+
+SPEC REPOS:
+  trunk:
+    - TTGSnackbar
+
+SPEC CHECKSUMS:
+  TTGSnackbar: 97c033600de8a9c8f4a093f25a08543a03946bcc
+
+PODFILE CHECKSUM: aca3c808990d42986c3c3696b9f2bea83bf3aec1
+
+COCOAPODS: 1.8.1

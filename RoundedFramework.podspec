@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RoundedFramework"
-  spec.version      = "0.0.3"
-  spec.summary      = "Custom rounded corner for your UIView component."
+  spec.version      = "0.0.4"
+  spec.summary      = "Custom rounded corner for your UIView component added dependency."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -132,6 +132,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency 'TTGSnackbar', '~> 1.10.2'
 
 end
