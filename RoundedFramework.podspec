@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RoundedFramework"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "Custom rounded corner for your UIView component added dependency."
 
   # This description is used to generate tags and improve search results.
@@ -132,6 +132,6 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency 'TTGSnackbar'
+  spec.dependency 'TTGSnackbar', '~> 1.8.0'
 
 end
